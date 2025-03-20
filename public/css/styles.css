@@ -1,0 +1,80 @@
+
+h1{
+      font-family: "SUSE", sans-serif;
+      background-color: rgb(62, 60, 60);
+      text-align: center;
+      color: white;
+      height: 50px;
+      padding-top: 15px;
+      margin-top: 0px;
+      
+
+}
+
+body{
+    margin: 0px;
+    font-family: "SUSE", sans-serif;
+    background-color:D1E9F6;
+    text-align: center;
+    
+}
+
+#inp{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin: 100px auto;
+ width: 300px;
+ text-align: center;
+
+}
+
+input[type="text"]{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button{
+  
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 10px;
+    
+}
+
+button:hover{
+    background-color: #116023;
+    scale: 1.1;
+}
+
+img{
+    margin: 50px auto 25px auto;
+    width: 300px;
+    height: auto;
+}
+
+a button{
+    padding: 10px 20px;
+    background-color: #2850ec;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+a button:hover{
+    background-color:#1f3cb1;
+    scale: 1.1;
+}
+
+h3{
+    opacity: 50%;
+}

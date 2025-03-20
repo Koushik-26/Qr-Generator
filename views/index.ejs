@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <h1>Qr Code Generator</h1>
+
+    <div id="inp">
+        <form  action= "/post" method="post">
+            <input type="text" name = "input" placeholder="Enter text" autocomplete="off" required/>
+            <button type="submit">submit</button>
+           </form>
+        
+           <% if(locals.Image){ %>
+        <img src="<%= Image %>" alt="Generated Image" download/> 
+        <a href="<%= Image %>" download="qr_code.png">
+            <button>Download</button>
+         </a>
+           <% } %>
+    </div>
+   
+   
+</body>
+<footer>
+    <h3>Copyright@ <%=Date %></h3>
+</footer>
+</html>
